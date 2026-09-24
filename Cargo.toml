@@ -3,7 +3,7 @@ name = "nixdeploy"
 version = "0.1.0"
 edition = "2021"
 description = "Publisher and receiver in one binary: signs a manifest naming what each machine should run, and on each machine sizes that change against its OWN store from narinfo metadata before activating, refusing, or routing the refusal to a reimage -- never a run that delivers nothing and reports success"
-homepage = "https://github.com/julian-corbet/nixdeploy-corbet-ch"
+homepage = "https://github.com/corbet-nix/nixdeploy-corbet-ch"
 license = "MIT"
 publish = false
 

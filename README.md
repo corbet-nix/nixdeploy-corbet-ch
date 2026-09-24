@@ -224,7 +224,7 @@ example, systemd linger) if the timer must run while that user is logged out.
 
 ```nix
 {
-  inputs.nixdeploy.url = "github:julian-corbet/nixdeploy-corbet-ch";
+  inputs.nixdeploy.url = "github:corbet-nix/nixdeploy-corbet-ch";
 
   outputs = { nixpkgs, nixdeploy, ... }: {
     nixosConfigurations.host-a = nixpkgs.lib.nixosSystem {

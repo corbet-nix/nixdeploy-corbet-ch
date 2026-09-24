@@ -24,8 +24,8 @@ rustPlatform.buildRustPackage {
   # build that skipped `cargo test` here would ship the exact thing this crate exists to
   # prevent elsewhere: something that ran without anyone having actually checked what it did.
   meta = {
-    description = "Publisher and receiver in one binary: `nixdeploy publish` signs a manifest naming what each machine should run; `nixdeploy receive` sizes that change against its OWN store from narinfo metadata and refuses what would not survive activation, reporting a typed outcome -- see https://github.com/julian-corbet/nixdeploy-corbet-ch";
-    homepage = "https://github.com/julian-corbet/nixdeploy-corbet-ch";
+    description = "Publisher and receiver in one binary: `nixdeploy publish` signs a manifest naming what each machine should run; `nixdeploy receive` sizes that change against its OWN store from narinfo metadata and refuses what would not survive activation, reporting a typed outcome -- see https://github.com/corbet-nix/nixdeploy-corbet-ch";
+    homepage = "https://github.com/corbet-nix/nixdeploy-corbet-ch";
     license = lib.licenses.mit;
     mainProgram = "nixdeploy";
     platforms = lib.platforms.unix;
